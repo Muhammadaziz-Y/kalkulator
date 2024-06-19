@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiroyli Kalkulyator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="firstNumber" placeholder="Birinchi son">
+        <input type="text" id="operator" placeholder="Amal (misol: +, -, *, /)">
+        <input type="number" id="secondNumber" placeholder="Ikkinchi son">
+        <button onclick="calculate()">Hisoblash</button>
+        <div class="result">
+            <h3>Natija: <span id="result"></span></h3>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
